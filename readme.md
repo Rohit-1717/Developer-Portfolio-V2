@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and cutting-edge web technologies. Showcasing my projects, skills, and professional journey with an elegant and interactive user experience.
 
-![Portfolio Preview](./preview.png) <!-- Add your portfolio screenshot -->
+![Portfolio Preview](https://res.cloudinary.com/rohitcloudinary/image/upload/v1759588280/Portfolio/Screenshot_from_2025-10-04_19-58-15_djbqfy.png) <!-- Add your portfolio screenshot -->
 
 ## ✨ Features
 
