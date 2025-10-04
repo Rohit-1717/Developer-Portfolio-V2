@@ -1,5 +1,5 @@
 import { FloatingDock } from "@/components/ui/floating-dock";
-import { Home, FolderKanban, Info, Mail, BookOpen } from "lucide-react";
+import { Home, FolderKanban, Info, Mail } from "lucide-react";
 import { ModeToggle } from "../ThemeToggleButton/mode-toggle";
 
 export function FloatingDockDemo() {
@@ -25,13 +25,13 @@ export function FloatingDockDemo() {
       ),
       href: "/about",
     },
-    {
-      title: "Blog",
-      icon: (
-        <BookOpen className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "/blog",
-    },
+    // {
+    //   title: "Blog",
+    //   icon: (
+    //     <BookOpen className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    //   ),
+    //   href: "/blog",
+    // },
     {
       title: "Contact",
       icon: (
@@ -42,10 +42,7 @@ export function FloatingDockDemo() {
 
     {
       title: "Theme",
-      icon: (
-              <ModeToggle/>
-
-      ),
+      icon: <ModeToggle />,
       href: "#",
     },
   ];

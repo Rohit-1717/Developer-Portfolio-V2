@@ -186,13 +186,13 @@ function Projects() {
             transition={{ duration: 0.6 }}
           >
             <motion.div
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-sm mb-4"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 dark:bg-white/5 border border-black/50 dark:border-white/10 backdrop-blur-sm mb-4"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <Code2 className="w-4 h-4 text-blue-500" />
-              <span className="text-sm font-medium">My Work</span>
+              <Code2 className="w-4 h-4 text-blue-500 " />
+              <span className="text-sm font-medium ">My Work</span>
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
