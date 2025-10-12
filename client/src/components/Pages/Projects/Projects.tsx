@@ -6,159 +6,81 @@ import { Github, ExternalLink, Code2, Sparkles } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Manovie",
     description:
-      "A full-stack e-commerce solution with real-time inventory management, payment integration, and admin dashboard.",
+      "ManoVie is an AI-powered mental wellness platform that leverages sentiment analysis and data visualization to help users track emotions, understand mental health patterns, and receive personalized well-being insights.",
     image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "https://res.cloudinary.com/rohitcloudinary/image/upload/v1760261678/Portfolio%20Projects%20Banners/ManoVie_i09hmo.png",
+    tags: ["React", "Node.js", "MongoDB", "Gemini Ai", "Zustand", "JavaScript"],
+    github:
+      "https://github.com/Rohit-1717/ManoVie---AI-Powered-Mood-Tracking-and-Sentiment-Analysis",
+    live: "https://mano-vie-ai-powered-mood-tracking-a.vercel.app/",
     featured: true,
     category: "Web Apps",
   },
   {
     id: 2,
-    title: "AI Chat Application",
+    title: "Morphix AI",
     description:
-      "Real-time chat application with AI-powered responses, user authentication, and message encryption.",
+      "An AI-driven creative ecosystem that empowers users to generate, customize, and scale stunning visuals with lightning-fast performance and powerful APIs — designed for creators, developers, and businesses alike.",
     image:
-      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
-    tags: ["Next.js", "OpenAI", "WebSocket", "PostgreSQL"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "https://res.cloudinary.com/rohitcloudinary/image/upload/v1760262540/Portfolio%20Projects%20Banners/Morphix_Ai_huqexd.png",
+    tags: [
+      "React",
+      "OpenAI",
+      "Express",
+      "MongoDB",
+      "ShadCN",
+      "Generative AI",
+      "TypeScript",
+      "NodeJs",
+    ],
+    github:
+      "https://github.com/Rohit-1717/Text---Image-Generator----Nebius-AI-Studio",
+    live: "https://text-image-generator-nebius-v20.vercel.app/",
     featured: true,
     category: "Generative AI",
   },
   {
     id: 3,
-    title: "Task Management System",
+    title: "Connectify Messenger",
     description:
-      "Collaborative task management tool with drag-and-drop interface, team collaboration, and progress tracking.",
+      "Connectify Messenger is a powerful, feature-rich real-time messaging application designed for seamless and engaging communication. It combines state-of-the-art technologies to deliver a secure, customizable, and user-friendly experience.",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
-    tags: ["React", "TypeScript", "Firebase", "Tailwind"],
-    github: "https://github.com",
+      "https://camo.githubusercontent.com/7aa9873deeec6104bc7088293376f3e4bdb32c6f15f7659da089e0e0a5507921/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f726f686974636c6f7564696e6172792f696d6167652f75706c6f61642f76313733373339393732382f436f6e6e6563746966795f4d657373656e6765722d41495f62626a656b342e706e67",
+    tags: [
+      "React",
+      "MongoDB",
+      "Express",
+      "NodeJs",
+      "Tailwind CSS",
+      "Socket.IO",
+      "Gemini APIs",
+    ],
+    github: "https://github.com/Rohit-1717/Messaging-Application---Socket.io",
     live: "https://example.com",
     featured: false,
     category: "Web Apps",
   },
   {
     id: 4,
-    title: "Portfolio Builder",
+    title: "Developer Portfolio",
     description:
-      "No-code portfolio builder with customizable templates, drag-and-drop editor, and one-click deployment.",
+      "A modern, responsive developer portfolio website built with React, TypeScript, and cutting-edge web technologies. Showcasing my projects, skills, and professional journey with an elegant and interactive user experience.",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    tags: ["Vue.js", "Express", "AWS", "Docker"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "https://camo.githubusercontent.com/e543223b36a66d9455ce78bdeb6c1b968d74e3a48ab35ce1f5efd7724eccc954/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f726f686974636c6f7564696e6172792f696d6167652f75706c6f61642f76313735393538383238302f506f7274666f6c696f2f53637265656e73686f745f66726f6d5f323032352d31302d30345f31392d35382d31355f646a627166792e706e67",
+    tags: [
+      "ReactJs",
+      "ShadCN",
+      "Accertinity UI",
+      "Frontend",
+      "Framer Motion",
+      "NodeJs",
+    ],
+    github: "https://github.com/Rohit-1717/Developer-Portfolio-V2",
+    live: "https://developer-portfolio-v2-alpha.vercel.app/",
     featured: false,
     category: "Web Apps",
-  },
-  {
-    id: 5,
-    title: "Analytics Dashboard",
-    description:
-      "Real-time analytics dashboard with data visualization, custom reports, and export functionality.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    tags: ["React", "D3.js", "Python", "FastAPI"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: false,
-    category: "Web Apps",
-  },
-  {
-    id: 6,
-    title: "Social Media App",
-    description:
-      "Full-featured social media platform with posts, stories, real-time messaging, and content moderation.",
-    image:
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
-    tags: ["React Native", "GraphQL", "Redis", "AWS"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: true,
-    category: "Web Apps",
-  },
-  {
-    id: 7,
-    title: "AI Image Generator",
-    description:
-      "Advanced image generation platform using stable diffusion models with custom prompt engineering and style transfer.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1726079248086-ad6bec853f36?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Python", "Stable Diffusion", "React", "TensorFlow"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: true,
-    category: "Generative AI",
-  },
-  {
-    id: 8,
-    title: "NFT Marketplace",
-    description:
-      "Decentralized NFT marketplace with smart contracts, wallet integration, and royalty distribution system.",
-    image:
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80",
-    tags: ["Solidity", "Ethereum", "React", "Web3.js"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: true,
-    category: "Web 3.0",
-  },
-  {
-    id: 9,
-    title: "DeFi Staking Platform",
-    description:
-      "Decentralized finance platform for token staking, yield farming, and liquidity pool management.",
-    image:
-      "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=800&q=80",
-    tags: ["Solidity", "Hardhat", "Next.js", "Ethers.js"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: false,
-    category: "Web 3.0",
-  },
-  {
-    id: 10,
-    title: "AI Content Writer",
-    description:
-      "GPT-powered content generation tool for blogs, social media, and marketing copy with SEO optimization.",
-    image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-    tags: ["OpenAI", "Next.js", "Prisma", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: false,
-    category: "Generative AI",
-  },
-  {
-    id: 11,
-    title: "DAO Governance Platform",
-    description:
-      "Decentralized autonomous organization platform with voting mechanisms, proposal creation, and treasury management.",
-    image:
-      "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=800&q=80",
-    tags: ["Solidity", "IPFS", "React", "The Graph"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: false,
-    category: "Web 3.0",
-  },
-  {
-    id: 12,
-    title: "AI Voice Assistant",
-    description:
-      "Intelligent voice assistant with natural language processing, context awareness, and multi-language support.",
-    image:
-      "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&q=80",
-    tags: ["Python", "Whisper AI", "GPT-4", "FastAPI"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: true,
-    category: "Generative AI",
   },
 ];
 
