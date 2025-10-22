@@ -43,47 +43,6 @@ const projects = [
   },
   {
     id: 3,
-    title: "Connectify Messenger",
-    description:
-      "Connectify Messenger is a powerful, feature-rich real-time messaging application designed for seamless and engaging communication. It combines state-of-the-art technologies to deliver a secure, customizable, and user-friendly experience.",
-    image:
-      "https://camo.githubusercontent.com/7aa9873deeec6104bc7088293376f3e4bdb32c6f15f7659da089e0e0a5507921/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f726f686974636c6f7564696e6172792f696d6167652f75706c6f61642f76313733373339393732382f436f6e6e6563746966795f4d657373656e6765722d41495f62626a656b342e706e67",
-    tags: [
-      "React",
-      "MongoDB",
-      "Express",
-      "NodeJs",
-      "Tailwind CSS",
-      "Socket.IO",
-      "Gemini APIs",
-    ],
-    github: "https://github.com/Rohit-1717/Messaging-Application---Socket.io",
-    live: "https://example.com",
-    featured: false,
-    category: "Web Apps",
-  },
-  {
-    id: 4,
-    title: "Developer Portfolio",
-    description:
-      "A modern, responsive developer portfolio website built with React, TypeScript, and cutting-edge web technologies. Showcasing my projects, skills, and professional journey with an elegant and interactive user experience.",
-    image:
-      "https://camo.githubusercontent.com/e543223b36a66d9455ce78bdeb6c1b968d74e3a48ab35ce1f5efd7724eccc954/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f726f686974636c6f7564696e6172792f696d6167652f75706c6f61642f76313735393538383238302f506f7274666f6c696f2f53637265656e73686f745f66726f6d5f323032352d31302d30345f31392d35382d31355f646a627166792e706e67",
-    tags: [
-      "ReactJs",
-      "ShadCN",
-      "Accertinity UI",
-      "Frontend",
-      "Framer Motion",
-      "NodeJs",
-    ],
-    github: "https://github.com/Rohit-1717/Developer-Portfolio-V2",
-    live: "https://developer-portfolio-v2-alpha.vercel.app/",
-    featured: false,
-    category: "Web Apps",
-  },
-  {
-    id: 5,
     title: "TaskFlow - Task Management System",
     description:
       "A full-stack MERN task management application with real-time collaboration, priority management, and user authentication. Features include drag-and-drop task organization, team collaboration, due date tracking, and a responsive design with theme customization.",
@@ -104,6 +63,47 @@ const projects = [
     github: "https://github.com/Rohit-1717/Task-Flow-",
     live: "https://task-flow-pink-eight.vercel.app/",
     featured: true,
+    category: "Web Apps",
+  },
+  {
+    id: 4,
+    title: "Connectify Messenger",
+    description:
+      "Connectify Messenger is a powerful, feature-rich real-time messaging application designed for seamless and engaging communication. It combines state-of-the-art technologies to deliver a secure, customizable, and user-friendly experience.",
+    image:
+      "https://camo.githubusercontent.com/7aa9873deeec6104bc7088293376f3e4bdb32c6f15f7659da089e0e0a5507921/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f726f686974636c6f7564696e6172792f696d6167652f75706c6f61642f76313733373339393732382f436f6e6e6563746966795f4d657373656e6765722d41495f62626a656b342e706e67",
+    tags: [
+      "React",
+      "MongoDB",
+      "Express",
+      "NodeJs",
+      "Tailwind CSS",
+      "Socket.IO",
+      "Gemini APIs",
+    ],
+    github: "https://github.com/Rohit-1717/Messaging-Application---Socket.io",
+    live: "https://example.com",
+    featured: false,
+    category: "Web Apps",
+  },
+  {
+    id: 5,
+    title: "Developer Portfolio",
+    description:
+      "A modern, responsive developer portfolio website built with React, TypeScript, and cutting-edge web technologies. Showcasing my projects, skills, and professional journey with an elegant and interactive user experience.",
+    image:
+      "https://camo.githubusercontent.com/e543223b36a66d9455ce78bdeb6c1b968d74e3a48ab35ce1f5efd7724eccc954/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f726f686974636c6f7564696e6172792f696d6167652f75706c6f61642f76313735393538383238302f506f7274666f6c696f2f53637265656e73686f745f66726f6d5f323032352d31302d30345f31392d35382d31355f646a627166792e706e67",
+    tags: [
+      "ReactJs",
+      "ShadCN",
+      "Accertinity UI",
+      "Frontend",
+      "Framer Motion",
+      "NodeJs",
+    ],
+    github: "https://github.com/Rohit-1717/Developer-Portfolio-V2",
+    live: "https://developer-portfolio-v2-alpha.vercel.app/",
+    featured: false,
     category: "Web Apps",
   },
 ];
