@@ -82,6 +82,30 @@ const projects = [
     featured: false,
     category: "Web Apps",
   },
+  {
+    id: 5,
+    title: "TaskFlow - Task Management System",
+    description:
+      "A full-stack MERN task management application with real-time collaboration, priority management, and user authentication. Features include drag-and-drop task organization, team collaboration, due date tracking, and a responsive design with theme customization.",
+    image:
+      "https://res.cloudinary.com/rohitcloudinary/image/upload/v1761173807/Portfolio%20Projects%20Banners/TaskFlow_pu9mci.png",
+    tags: [
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "JWT Auth",
+      "Tailwind CSS",
+      "Daisy UI",
+      "Full Stack",
+      "REST API",
+      "Context API",
+    ],
+    github: "https://github.com/Rohit-1717/Task-Flow-",
+    live: "https://task-flow-pink-eight.vercel.app/",
+    featured: true,
+    category: "Web Apps",
+  },
 ];
 
 const filters = ["All", "Featured", "Web Apps", "Generative AI", "Web 3.0"];
